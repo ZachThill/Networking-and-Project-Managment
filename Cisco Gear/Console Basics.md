@@ -3,4 +3,8 @@
 
 # What is a Console Cable?
 
-![alt text](https://www.google.com/search?q=console+cable&client=firefox-b-1-d&sxsrf=ALeKk00syiRetN3bvAEenoZ8GA0QFivRdA:1624337027511&source=lnms&tbm=isch&sa=X&ved=2ahUKEwiMp5T8tqrxAhX1Ap0JHWm1BcYQ_AUoAnoECAEQBA&biw=1920&bih=927#imgrc=_N09_kqib5LlEM)
+Console Cables or also known as a rollover cable and a yost cable, is used to physically access the running terminal for a networking device such as a switch, router, or server. Evloving from the original RJ-45 to Serial connector, modern console cables utilize a USB type A connector to an RJ-45. 
+
+# How to Console into Devices
+
+Utilizing an amazing application called [PuTTy](https://www.putty.org/), you can either create a Secure Shell(SSH) or Console session with any networking device.
