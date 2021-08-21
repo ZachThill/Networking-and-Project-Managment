@@ -7,5 +7,7 @@ The moment you boot your Cisco Networking device, you will begin in what's calle
  - *show (Limited)*
  - *enable*
  - *etc...* 
+ 
+ 
  ![image](https://user-images.githubusercontent.com/83109592/130335827-ce3c1108-3758-47d5-8f4c-9d62551cf738.png)
 
