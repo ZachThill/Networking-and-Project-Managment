@@ -26,7 +26,7 @@ After typing in the command **conf t**, you will now be in **Global Config Mode*
  - *hostname*
  - *etc...*
 
-***Interface Configuration*** - ***Router(Config-it)#***
+***Interface Configuration*** - ***Router(Config-if)#***
 
 After typing, **interface** followed by whatever interface you want to configure ***(fa 0/# / Gi 0/#)***, you will be able to configure that interface: 
  - *Access Port*
@@ -35,9 +35,11 @@ After typing, **interface** followed by whatever interface you want to configure
  - *Assign IP Addresses / Subnets*
  - *etc...*
  
-***Router Configuration*** - ***Router(Config-Router)#***
+***Router Configuration*** - ***Router(Config-router)#***
 
-*Line Configuration*
+***Line Configuration*** - ***Router(Config-line)#*** 
+
+**Rommon Mode** - **Rommon>**
 
 *
  ![image](https://user-images.githubusercontent.com/83109592/130335827-ce3c1108-3758-47d5-8f4c-9d62551cf738.png)
