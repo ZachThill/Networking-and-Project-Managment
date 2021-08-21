@@ -20,12 +20,15 @@ After typing the command **enable** and type in your password if one is configur
 
 **Configuration Mode** - **Router(Config)#**
 
-After typing in the command **conf t**, you will see that the  
-
-*Global Configuration* 
+After typing in the command **conf t**, you will now be in **Global Config Mode**. From here, you will have access to configure anything and everything about the device from its hostname to the way it works. Some examples of commands you can type from here are: 
+ - *interface*
+ - *ip*
+ - *hostname*
+ - *etc...*
 
 *Interface Configuration* 
 
+After typing, **interface** followed by whatever interface you want to configure ***(fa 0/# / Gi 0/#)***,
 *Router Configuration*
 
 *Line Configuration*
