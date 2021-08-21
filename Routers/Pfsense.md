@@ -1,2 +1,0 @@
-# Pfsense Configuration Basics 
-
