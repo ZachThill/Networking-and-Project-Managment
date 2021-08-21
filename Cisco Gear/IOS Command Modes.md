@@ -28,7 +28,8 @@ After typing in the command **conf t**, you will now be in **Global Config Mode*
 
 *Interface Configuration* 
 
-After typing, **interface** followed by whatever interface you want to configure ***(fa 0/# / Gi 0/#)***,
+After typing, **interface** followed by whatever interface you want to configure ***(fa 0/# / Gi 0/#)***, you will be able to configure that interface as an access port, trunk port, assign a vlan to it, assign an ip address, etc...
+
 *Router Configuration*
 
 *Line Configuration*
