@@ -1,6 +1,6 @@
 # Cisco IOS Command Mode Basics
 
-**User Exec Mode** 
+***User Exec Mode***
 
 The moment you boot your Cisco Networking device, you will begin in what's called *User Exec Mode*. Your access to viewing and changing anything will be very limited. Some of the commands you can use in this mode are: 
  - *ping*
