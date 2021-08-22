@@ -1,7 +1,26 @@
 # Configuring Cisco Routers with CLI 
 **Authored by Zachary Thill - IT Student Project Leader @ RRCC**
 
-**Configuring Hostname / Console**
+# Configuring Hostname / Console
+Router> enable  
+
+Router# conf t  
+
+Router(config)# no logging console  
+
+Router(config)# line console 0 
+
+Router(config-line)# password ____________ 
+
+Router(config-line)# login 
+
+Router(config-line)# exit  
+
+Router(config)# hostname CyberLab_Router1  
+
+Router(config)# exit 
+
+Router# copy run start  
 
 **Configuring Interfaces** 
 
