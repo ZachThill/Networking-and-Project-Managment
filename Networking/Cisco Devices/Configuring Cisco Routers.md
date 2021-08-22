@@ -2,23 +2,23 @@
 **Authored by Zachary Thill - IT Student Project Leader @ RRCC**
 
 # Configuring Hostname / Console
-**Router> enable  
+**Router> enable**  
 
-**Router# conf t  
+**Router# conf t**  
 
-**Router(config)# no logging console  
+**Router(config)# no logging console**  
 
-**Router(config)# line console 0 
+**Router(config)# line console 0**
 
-**Router(config-line)# login 
+**Router(config-line)# login** 
 
-**Router(config-line)# exit  
+**Router(config-line)# exit**  
 
-**Router(config)# hostname CyberLab_Router1  
+**Router(config)# hostname ____________**  
 
-**Router(config)# exit 
+**Router(config)# exit** 
 
-**Router# copy run start 
+**Router# copy run start** 
 
 # Configuring Interfaces 
 
