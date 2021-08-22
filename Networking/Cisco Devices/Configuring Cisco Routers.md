@@ -3,7 +3,8 @@
 
 Figure 0x1
 
-![image](https://user-images.githubusercontent.com/83109592/130343148-1e31ab34-89c5-47cb-9079-bc54e826e565.png)
+![image](https://user-images.githubusercontent.com/83109592/130343285-dd587231-ab58-471d-a5ae-48c21be514e0.png)
+
 
 # Configuring Hostname / Console
 **Router> enable**  
