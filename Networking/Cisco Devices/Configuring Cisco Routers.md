@@ -84,11 +84,11 @@
 
 # Configuring Dynamic Routing - EIGRP 
 
-***Configuring Dynamic Routing - OSPF***  
+# Configuring Dynamic Routing - OSPF  
 
-***Configuring Dynamic Routing - RIPv1 / RIPv2*** 
+# Configuring Dynamic Routing - RIPv1 / RIPv2 
 
-**Configuring Static Routing** 
+# Configuring Static Routing 
 
-**Configuring "Router on a Stick" (Sub-Interfaces)**
+# Configuring "Router on a Stick" (Sub-Interfaces)
 
