@@ -10,6 +10,8 @@
 
 **Router(config)# line console 0**
 
+**Router(config-line)# password _____________**
+
 **Router(config-line)# login** 
 
 **Router(config-line)# exit**  
