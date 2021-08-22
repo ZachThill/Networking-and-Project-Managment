@@ -1,6 +1,10 @@
 # Configuring Cisco Routers with CLI 
 **Authored by Zachary Thill - IT Student Project Leader @ RRCC**
 
+Figure 0x1
+
+![image](https://user-images.githubusercontent.com/83109592/130343148-1e31ab34-89c5-47cb-9079-bc54e826e565.png)
+
 # Configuring Hostname / Console
 **Router> enable**  
 
