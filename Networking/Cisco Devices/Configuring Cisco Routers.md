@@ -24,9 +24,56 @@
 
 # Configuring Interfaces 
 
-**Configuring DHCP** 
+Router(config)# interface Gi0/#  
 
-**Configuring NATing** 
+Router(config-if)# description LAN  
+
+Router(config-if)# ip address 192.168.1.1 255.255.255.0 
+
+Router(config-if)# ip nat inside  
+
+Router(config-if)# no shutdown 
+
+Router(config-if)# exit 
+
+Router(config)# interface Gi0/# 
+
+Router(config-if)# description WAN 
+
+Router(config-if)# ip address 91.223.224.42 255.255.240.0
+
+Router(config-if)# ip nat outside 
+
+Router(config-if)# no shutdown 
+
+Router(config-if)# exit 
+
+Router(config)# exit 
+
+Router# copy run start  
+
+# Configuring DHCP Pools
+
+Router# conf t   
+
+Router(config)# service dhcp 
+
+Router(config)# ip dhcp excluded-address 192.168.1.1 192.168.1.10
+
+Router(config)# ip dhcp pool vlan1 
+
+Router(config-dhcp)# network 192.168.1.0 255.255.255.0 
+
+Router(config-dhcp)# default-router 192.168.1.1 
+
+Router(config-dhcp)# dns-server 1.1.1.1  
+
+Router(config-dhcp)# exit 
+
+Router(config)# exit  
+
+Router# copy run start 
+# Configuring NATing 
 
 **Configuring Dynamic Routing - EIGRP** 
 
