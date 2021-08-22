@@ -87,6 +87,10 @@ Figure 0x1
 
 **Router(config)# ip route 0.0.0.0 0.0.0.0 91.223.224.42**
 
+Figure 0x2
+
+![image](https://user-images.githubusercontent.com/83109592/130343952-9fd0dbae-13dd-43e1-a81d-05b286243dc4.png)
+
 # Configuring Dynamic Routing - EIGRP 
 
 # Configuring Dynamic Routing - OSPF  
