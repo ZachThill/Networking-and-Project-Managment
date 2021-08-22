@@ -28,7 +28,7 @@ Figure 0x1
 
 # Configuring Interfaces 
 
-**Router(config)# interface Gi0/#**  
+**Router(config)# interface Gi0/1**  
 
 **Router(config-if)# description LAN**  
 
@@ -40,7 +40,7 @@ Figure 0x1
 
 **Router(config-if)# exit** 
 
-**Router(config)# interface Gi0/#** 
+**Router(config)# interface Gi0/0** 
 
 **Router(config-if)# description WAN** 
 
@@ -80,7 +80,7 @@ Figure 0x1
 
 # Configuring NATing 
 
-**Router(config)# ip nat inside source list 1 interface Gi0/# overload** 
+**Router(config)# ip nat inside source list 1 interface Gi0/0 overload** 
 
 **Router(config)# access-list 1 permit 192.168.1.0 0.0.0.255**
 
