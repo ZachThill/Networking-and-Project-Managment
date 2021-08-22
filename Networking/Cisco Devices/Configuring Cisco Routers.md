@@ -72,10 +72,17 @@ Router(config-dhcp)# exit
 
 Router(config)# exit  
 
-Router# copy run start 
+Router# copy run start
+
 # Configuring NATing 
 
-**Configuring Dynamic Routing - EIGRP** 
+Router(config)# ip nat inside source list 1 interface Gi0/# overload 
+
+Router(config)# access-list 1 permit 192.168.1.0 0.0.0.255
+
+Router(config)# ip route 0.0.0.0 0.0.0.0 91.223.224.42
+
+# Configuring Dynamic Routing - EIGRP 
 
 ***Configuring Dynamic Routing - OSPF***  
 
