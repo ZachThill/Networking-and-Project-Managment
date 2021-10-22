@@ -4,17 +4,15 @@ Figure 0x1
 
 ![image](https://user-images.githubusercontent.com/83109592/138515205-993367ee-0e86-4016-ab63-2a9dbc47b780.png)
 
-# Basic Configuring 
-
-Setting a Hostname
+# Most Common Basic Commands
 
 **Switch>** enable
 
+**Switch#** show running-configuration
+
+**Switch#** copy running-config startup-config
+
 **Switch#** configure terminal
-
-**Switch(config)#** no logging console
-
-**Switch(config)#** hostname ***Name***
 
 # Securing The Device
 
@@ -40,7 +38,7 @@ Setting a Hostname
 
  Securing The Command Line
  
-  - Creating an encrypted enable password 
+  - Creating an Encrypted Enable Password 
 
 **Switch_A(config)#** enable secret ***password***
 
@@ -81,6 +79,8 @@ OPTION 2
 **Switch(config)#** ip ssh version 2
 
 # Configuring Interfaces
+
+
 
 # Configuring VLANS
 
