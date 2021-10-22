@@ -29,6 +29,7 @@ Figure 0x1
 **Switch_A(config-line)#** login 
   
   OPTION 2
+  
 **Switch_A(config-line)#** login local
 
 **Switch_A(config-line)#** exec-timeout ***minutes*** 
@@ -55,7 +56,13 @@ Securing Remote Access
 
 **Switch_A(config-line)#** password ***password***
 
+OPTION 1
+
 **Switch_A(config-line)#** login
+
+OPTION 2
+
+**Switch_A(config-line)#** login local
 
 **Switch_A(config-line)#** exec-timeout ***minutes***
 
