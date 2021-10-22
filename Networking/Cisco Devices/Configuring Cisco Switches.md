@@ -14,7 +14,7 @@ Setting a Hostname
 
 **Switch(config)#** no logging console
 
-**Switch(config)#** hostname Switch_A
+**Switch(config)#** hostname ***Name***
 
 # Securing The Device
 
