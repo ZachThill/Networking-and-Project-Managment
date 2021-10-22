@@ -24,8 +24,13 @@ Figure 0x1
 
 **Switch_A(config-line)#** password ***password***
   
-**Switch_A(config-line)#** login
+  OPTION 1
   
+**Switch_A(config-line)#** login 
+  
+  OPTION 2
+**Switch_A(config-line)#** login local
+
 **Switch_A(config-line)#** exec-timeout ***minutes*** 
   
 **Switch_A(config-line)#** exit
@@ -41,6 +46,18 @@ Figure 0x1
  - Creating Local User Accounts w different Privleges 
 
 **Switch_A(config)#** username ***name*** privilege ***0-15*** password ***password***
+
+**Switch_A(config)#** privilege ***mode*** level ***2-14***
+
+Securing Remote Access
+
+**Switch_A(config)#** line vty 0 15
+
+**Switch_A(config-line)#** password ***password***
+
+**Switch_A(config-line)#** login
+
+**Switch_A(config-line)#** exec-timeout ***minutes***
 
 # Configuring Interfaces
 
