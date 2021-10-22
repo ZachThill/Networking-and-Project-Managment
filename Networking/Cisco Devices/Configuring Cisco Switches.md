@@ -33,6 +33,10 @@ Figure 0x1
 
 # Configuring VLANS
 
+# Configuring Port Channels
+
+# Configuring LACP
+
 # Configuring ACLs
 
 # Configuring STP / RSTP
