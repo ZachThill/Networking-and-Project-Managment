@@ -4,7 +4,7 @@ Figure 0x1
 
 ![image](https://user-images.githubusercontent.com/83109592/138515205-993367ee-0e86-4016-ab63-2a9dbc47b780.png)
 
-# Configuring / Securing The Device
+# Basic Configuring 
 
 **Switch>** enable
 
@@ -13,6 +13,8 @@ Figure 0x1
 **Switch(config)#** no logging console
 
 **Switch(config)#** hostname Switch_A
+
+# Securing The Device
 
 **Switch_A(config)#** line console 0
 
