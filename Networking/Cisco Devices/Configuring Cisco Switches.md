@@ -16,6 +16,10 @@ Figure 0x1
 
 # Securing The Device
 
+ Securing The Console
+ 
+  - Creating a console password
+
 **Switch_A(config)#** line console 0
 
 **Switch_A(config-line)#** password ***password***
@@ -26,8 +30,17 @@ Figure 0x1
   
 **Switch_A(config-line)#** exit
 
+ Securing The Command Line
+ 
+  - Creating an encrypted enable password 
+
 **Switch_A(config)#** enable secret ***password***
 
+**Switch_A(config)#** service password-encryption
+
+ - Creating Local User Accounts w different Privleges 
+
+**Switch_A(config)#** username ***name*** privilege ***0-15*** password ***password***
 
 # Configuring Interfaces
 
