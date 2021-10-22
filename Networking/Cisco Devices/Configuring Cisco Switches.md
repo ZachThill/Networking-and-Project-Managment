@@ -18,15 +18,15 @@ Figure 0x1
 
 **Switch_A(config)#** line console 0
 
-**Switch_A(config-line)#** password **<password>**
+**Switch_A(config-line)#** password ***password***
   
 **Switch_A(config-line)#** login
   
-**Switch_A(config-line)#** exec-timeout "<minutes>" 
+**Switch_A(config-line)#** exec-timeout ***minutes*** 
   
 **Switch_A(config-line)#** exit
 
-**Switch_A(config)#** enable secret "<password>"
+**Switch_A(config)#** enable secret ***password***
 
 
 # Configuring Interfaces
