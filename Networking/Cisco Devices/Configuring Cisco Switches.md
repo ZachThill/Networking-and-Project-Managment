@@ -80,7 +80,23 @@ OPTION 2
 
 # Configuring Interfaces
 
+**Switch(config)#** interface fa ***#/#/#***
 
+Configuring Access Ports
+
+**Switch(config-if)#** switchport mode access
+
+**Switch(config-if)#** switchport access vlan ***##***
+
+**Switch(config-if)#** no shutdown
+
+Configuring Trunk Ports
+
+**Switch(config-if)#** switchport mode trunk
+
+**Switch(config-if)#** switchport trunk allowed vlan ***##,##,##***
+
+**Switch(config-if)#** no shutdown
 
 # Configuring VLANS
 
