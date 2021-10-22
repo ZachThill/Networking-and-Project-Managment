@@ -7,7 +7,9 @@ Figure 0x1
 # Configuring Hostname / Console 
 
 **Switch>** enable
+
 **Switch#** configure terminal
+
 **Switch(config)#**
 # Configuring Interfaces
 
