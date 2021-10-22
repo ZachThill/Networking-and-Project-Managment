@@ -18,7 +18,7 @@ Figure 0x1
 
 **Switch_A(config)#** line console 0
 
-**Switch_A(config-line)#** password "<password>"
+**Switch_A(config-line)#** password **<password>**
   
 **Switch_A(config-line)#** login
   
