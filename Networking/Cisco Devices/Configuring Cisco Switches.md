@@ -6,6 +6,8 @@ Figure 0x1
 
 # Basic Configuring 
 
+Setting a Hostname
+
 **Switch>** enable
 
 **Switch#** configure terminal
@@ -52,6 +54,8 @@ Figure 0x1
 
 Securing Remote Access
 
+ - Setting a Remote Auth Password
+
 **Switch_A(config)#** line vty 0 15
 
 **Switch_A(config-line)#** password ***password***
@@ -65,6 +69,16 @@ OPTION 2
 **Switch_A(config-line)#** login local
 
 **Switch_A(config-line)#** exec-timeout ***minutes***
+
+ - Setting up SSH 
+
+**Switch_A(config)#** ip domain-name ***Domain***
+
+**Switch(config)#** hostname ***Name***
+
+**Switch(config)#** crypto key generate rsa
+
+**Switch(config)#** ip ssh version 2
 
 # Configuring Interfaces
 
