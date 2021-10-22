@@ -4,13 +4,16 @@ Figure 0x1
 
 ![image](https://user-images.githubusercontent.com/83109592/138515205-993367ee-0e86-4016-ab63-2a9dbc47b780.png)
 
-**Configuring Hostname / Console** 
+# Configuring Hostname / Console 
 
-**Configuring Interfaces**
+**Switch>** enable
+**Switch#** configure terminal
+**Switch(config)#**
+# Configuring Interfaces
 
-**Configuring VLANS** 
+# Configuring VLANS
 
-**Configuring ACLs**
+# Configuring ACLs
 
-**Configuring STP / RSTP** 
+# Configuring STP / RSTP
 
