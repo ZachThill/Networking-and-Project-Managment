@@ -100,6 +100,20 @@ Configuring Trunk Ports
 
 # Configuring VLANS
 
+Creating VLANs (Broadcast Domains)
+
+**Switch(config)#** vlan #
+
+**Switch(config-vlan)#** name ***Name***
+
+Creating VLANs (Virtual Logical Interfaces)
+
+**Switch(config)#** interface vlan #
+
+**Switch(config-if)#** description ***Name of VLAN***
+
+**Switch(config)#** ip address ***dhcp/A.B.C.D***
+
 # Configuring Port Channels
 
 # Configuring LACP
