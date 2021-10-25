@@ -2,7 +2,7 @@
 Figure 0x1
 
 
-![image](https://user-images.githubusercontent.com/83109592/138642340-d1014013-1856-463d-ac11-fbb9380b4b92.png)
+![image](https://user-images.githubusercontent.com/83109592/138642405-7e60521c-a288-4b97-9cef-d828de64fcf6.png)
 
 # Most Common Basic Commands
 
