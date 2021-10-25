@@ -78,7 +78,7 @@ OPTION 2
 
 **Switch(config)#** ip ssh version 2
 
-# Configuring Interfaces
+# Configuring Physical Interfaces
 
 **Switch(config)#** interface fa ***#/#/#***
 
